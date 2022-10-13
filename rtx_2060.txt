@@ -1,19 +1,3 @@
-hashcat.exe -b
-hashcat (v6.2.6) starting in benchmark mode
-
-Benchmarking uses hand-optimized kernel code by default.
-You can use it in your cracking session by setting the -O option.
-Note: Using optimized kernel code limits the maximum supported password length.
-To disable the optimized kernel code in benchmark mode, use the -w option.
-
-* Device #1: WARNING! Kernel exec timeout is not disabled.
-             This may cause "CL_OUT_OF_RESOURCES" or related errors.
-             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
-* Device #2: WARNING! Kernel exec timeout is not disabled.
-             This may cause "CL_OUT_OF_RESOURCES" or related errors.
-             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
-nvmlDeviceGetFanSpeed(): Not Supported
-
 CUDA API (CUDA 11.8)
 ====================
 * Device #1: NVIDIA GeForce RTX 2060, 5134/6143 MB, 30MCU
